@@ -1,0 +1,17 @@
+﻿mod array_diff;
+mod backprimes;
+pub mod check_cheating;
+mod deadfish;
+mod diamond;
+mod dupwords;
+mod formmin;
+mod integer_partis;
+mod last_digit;
+mod magnet_boxes;
+mod prime_decomposition;
+mod range_extraction;
+mod rot13;
+mod simple_assembler;
+mod sum_parts;
+mod triplets_secret;
+mod weight_club;
