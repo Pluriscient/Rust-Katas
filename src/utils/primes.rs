@@ -3,23 +3,20 @@
 use self::bit_vec::BitVec;
 
 pub fn euclidean_sieve(end: usize) -> BitVec {
-    let mem = {
-        let mut bv = BitVec::from_elem(end + 1, true);
-        bv.set(0, false);
-        bv.set(1, false);
-        let sqrt_n = ((end as f64).sqrt() as usize) + 1;
-        for i in 2..sqrt_n {
-            if bv[i] {
-                // let prod = i * j;
-                let max_j = end / i;
-                for j in i..=max_j {
-                    bv.set(i * j, false);
-                }
+    let mut bv = BitVec::from_elem(end + 1, true);
+    bv.set(0, false);
+    bv.set(1, false);
+    let sqrt_n = ((end as f64).sqrt() as usize) + 1;
+    for i in 2..sqrt_n {
+        if bv[i] {
+            // let prod = i * j;
+            let max_j = end / i;
+            for j in i..=max_j {
+                bv.set(i * j, false);
             }
         }
-        bv
-    };
-    mem
+    }
+    bv
 }
 
 pub fn is_prime(n: usize) -> bool {

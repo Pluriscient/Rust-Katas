@@ -16,7 +16,7 @@
                 .map(|_| "*")
                 .collect();
 
-            String::from(space_round.clone() + middle.as_str())
+            space_round + middle.as_str()
             // space_round + middle + space_round
         })
         .collect();

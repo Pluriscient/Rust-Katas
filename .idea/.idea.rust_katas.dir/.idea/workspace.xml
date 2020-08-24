@@ -17,36 +17,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75c36573-5b8c-4bf9-8613-ab63ac4c2d73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.rust_katas.dir/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.rust_katas.dir/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.rust_katas.dir/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.rust_katas.dir/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.rust_katas.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.rust_katas.dir/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.rust_katas.dir/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rust_katas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/problems.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/probs/array_diff.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/probs/backprimes.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/probs/check_cheating.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/probs/deadfish.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/probs/diamond.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/probs/dupwords.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/probs/formmin.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/probs/integer_partis.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/probs/last_digit.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/probs/magnet_boxes.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/probs/mod.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/probs/prime_decomposition.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/probs/range_extraction.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/probs/rot13.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/probs/simple_assembler.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/probs/sum_parts.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/probs/triplets_secret.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/probs/weight_club.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/mod.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/primes.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/w.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/probs/four_kyus/human_duration_format.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/probs/four_kyus/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/probs/four_kyus/next_smaller.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/probs/own_kumites/fixed_length_integer_partitions.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/probs/own_kumites/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/probs/three_kyus/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/probs/three_kyus/spirals.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.rust_katas.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.rust_katas.dir/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.rust_katas.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.rust_katas.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.rust_katas.dir/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.rust_katas.dir/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/probs/integer_partis.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/probs/four_kyus/integer_parts.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/probs/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/probs/mod.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/probs/simple_assembler.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/probs/simple_assembler.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,19 +62,28 @@
         <option value="$PROJECT_DIR$/src/probs/diamond.rs" />
         <option value="$PROJECT_DIR$/src/probs/prime_decomposition.rs" />
         <option value="$PROJECT_DIR$/src/utils/primes.rs" />
-        <option value="$PROJECT_DIR$/Cargo.toml" />
-        <option value="$PROJECT_DIR$/src/probs/simple_assembler.rs" />
         <option value="$PROJECT_DIR$/src/probs/sum_parts.rs" />
         <option value="$PROJECT_DIR$/src/problems.rs" />
         <option value="$PROJECT_DIR$/src/probs/check_cheating.rs" />
-        <option value="$PROJECT_DIR$/src/main.rs" />
         <option value="$PROJECT_DIR$/src/probs/triplets_secret.rs" />
         <option value="$PROJECT_DIR$/src/probs/weight_club.rs" />
         <option value="$PROJECT_DIR$/src/probs/magnet_boxes.rs" />
         <option value="$PROJECT_DIR$/src/probs/range_extraction.rs" />
         <option value="$PROJECT_DIR$/src/probs/last_digit.rs" />
-        <option value="$PROJECT_DIR$/src/probs/mod.rs" />
+        <option value="$PROJECT_DIR$/src/probs/simple_assembler.rs" />
         <option value="$PROJECT_DIR$/src/probs/integer_partis.rs" />
+        <option value="$PROJECT_DIR$/src/probs/next_smaller.rs" />
+        <option value="$PROJECT_DIR$/src/probs/four_kyus/mod.rs" />
+        <option value="$PROJECT_DIR$/src/probs/three_kyus/mod.rs" />
+        <option value="$PROJECT_DIR$/src/main.rs" />
+        <option value="$PROJECT_DIR$/src/probs/four_kyus/human_duration_format.rs" />
+        <option value="$PROJECT_DIR$/src/probs/four_kyus/integer_parts.rs" />
+        <option value="$PROJECT_DIR$/src/probs/four_kyus/next_smaller.rs" />
+        <option value="$PROJECT_DIR$/src/probs/three_kyus/spirals.rs" />
+        <option value="$PROJECT_DIR$/src/probs/mod.rs" />
+        <option value="$PROJECT_DIR$/src/probs/own_kumites/mod.rs" />
+        <option value="$PROJECT_DIR$/Cargo.toml" />
+        <option value="$PROJECT_DIR$/src/probs/own_kumites/fixed_length_integer_partitions.rs" />
       </list>
     </option>
   </component>
@@ -113,10 +108,10 @@
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="settings.editor.selected.configurable" value="language.rust.rustfmt" />
   </component>
-  <component name="RunManager" selected="Cargo Command.Test probs::integer_partis::partitions_test">
-    <configuration name="Test probs::integer_partis::partitions_test" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+  <component name="RunManager" selected="Cargo Command.Test probs::own_kumites::fixed_length_integer_partitions::tests::test_10">
+    <configuration name="Test fixed_length_integer_partitions::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="channel" value="DEFAULT" />
-      <option name="command" value="test --package rust_katas --bin rust_katas probs::integer_partis::partitions_test -- --exact" />
+      <option name="command" value="test --package rust_katas --bin rust_katas probs::own_kumites::fixed_length_integer_partitions::tests" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
@@ -126,9 +121,9 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test probs::integer_partis::returns_expected" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+    <configuration name="Test probs::own_kumites::fixed_length_integer_partitions::tests::test_10" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="channel" value="DEFAULT" />
-      <option name="command" value="test --package rust_katas --bin rust_katas probs::integer_partis::returns_expected -- --exact" />
+      <option name="command" value="test --package rust_katas --bin rust_katas probs::own_kumites::fixed_length_integer_partitions::tests::test_10 -- --exact" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
@@ -138,9 +133,9 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test probs::last_digit::returns_expected" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+    <configuration name="Test probs::own_kumites::fixed_length_integer_partitions::tests::test_basic" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="channel" value="DEFAULT" />
-      <option name="command" value="test --package rust_katas --bin rust_katas probs::last_digit::returns_expected -- --exact" />
+      <option name="command" value="test --package rust_katas --bin rust_katas probs::own_kumites::fixed_length_integer_partitions::tests::test_basic -- --exact" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
@@ -150,9 +145,9 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test probs::range_extraction::tests::example" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+    <configuration name="Test probs::own_kumites::fixed_length_integer_partitions::tests::test_quartic_triangles" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="channel" value="DEFAULT" />
-      <option name="command" value="test --package rust_katas --bin rust_katas probs::range_extraction::tests::example -- --exact" />
+      <option name="command" value="test --package rust_katas --bin rust_katas probs::own_kumites::fixed_length_integer_partitions::tests::test_quartic_triangles -- --exact" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
@@ -162,9 +157,9 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test range_extraction::tests" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+    <configuration name="Test probs::own_kumites::fixed_length_integer_partitions::tests::test_random" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="channel" value="DEFAULT" />
-      <option name="command" value="test --package rust_katas --bin rust_katas probs::range_extraction::tests" />
+      <option name="command" value="test --package rust_katas --bin rust_katas probs::own_kumites::fixed_length_integer_partitions::tests::test_random -- --exact" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
@@ -176,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cargo Command.Test probs::integer_partis::partitions_test" />
-        <item itemvalue="Cargo Command.Test probs::integer_partis::returns_expected" />
-        <item itemvalue="Cargo Command.Test probs::last_digit::returns_expected" />
-        <item itemvalue="Cargo Command.Test range_extraction::tests" />
-        <item itemvalue="Cargo Command.Test probs::range_extraction::tests::example" />
+        <item itemvalue="Cargo Command.Test probs::own_kumites::fixed_length_integer_partitions::tests::test_10" />
+        <item itemvalue="Cargo Command.Test probs::own_kumites::fixed_length_integer_partitions::tests::test_random" />
+        <item itemvalue="Cargo Command.Test fixed_length_integer_partitions::tests" />
+        <item itemvalue="Cargo Command.Test probs::own_kumites::fixed_length_integer_partitions::tests::test_quartic_triangles" />
+        <item itemvalue="Cargo Command.Test probs::own_kumites::fixed_length_integer_partitions::tests::test_basic" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +197,8 @@
       <workItem from="1597586268173" duration="5882000" />
       <workItem from="1597596319175" duration="1770000" />
       <workItem from="1597649963305" duration="15701000" />
-      <workItem from="1597769556372" duration="13221000" />
+      <workItem from="1597769556372" duration="15351000" />
+      <workItem from="1597828644563" duration="13003000" />
     </task>
     <servers />
   </component>
@@ -240,34 +236,39 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597577746224" />
-    <state x="673" y="235" width="1184" height="722" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1597683047076">
+    <state x="27" y="182" width="1184" height="778" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1597838009855">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="673" y="235" width="1184" height="722" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597683047076" />
-    <state width="1877" height="265" key="GridCell.Tab.0.bottom" timestamp="1597787684875">
+    <state x="27" y="182" width="1184" height="778" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597838009855" />
+    <state width="1208" height="265" key="GridCell.Tab.0.bottom" timestamp="1597841667284">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597692094496" />
-    <state width="1877" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597787684874" />
-    <state width="1877" height="265" key="GridCell.Tab.0.center" timestamp="1597787684874">
+    <state width="1208" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597841667284" />
+    <state width="1208" height="265" key="GridCell.Tab.0.center" timestamp="1597841667284">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597692094496" />
-    <state width="1877" height="265" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597787684874" />
-    <state width="1877" height="265" key="GridCell.Tab.0.left" timestamp="1597787684874">
+    <state width="1208" height="265" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597841667284" />
+    <state width="1208" height="265" key="GridCell.Tab.0.left" timestamp="1597841667284">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597692094496" />
-    <state width="1877" height="265" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597787684874" />
-    <state width="1877" height="265" key="GridCell.Tab.0.right" timestamp="1597787684874">
+    <state width="1208" height="265" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597841667284" />
+    <state width="1208" height="265" key="GridCell.Tab.0.right" timestamp="1597841667284">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597692094496" />
-    <state width="1877" height="265" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597787684874" />
+    <state width="1208" height="265" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597841667284" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1597504250563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597504250563" />
+    <state x="297" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597840824722">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="297" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597840824722" />
     <state x="638" y="76" width="644" height="888" key="find.popup" timestamp="1597573151377">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -277,10 +278,10 @@
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597655320465" />
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597769872411" />
-    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1597779068048">
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1597837845157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597667864481" />
-    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597779068048" />
+    <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1597837845157" />
   </component>
 </project>

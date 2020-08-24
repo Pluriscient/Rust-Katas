@@ -1,8 +1,8 @@
 ﻿use std::str::FromStr;
 
 fn last_digit_naive(str1: &str, str2: &str) -> i32 {
-    let n: i32 = (str1.as_bytes()[str1.len() - 1] as u8 - '0' as u8) as i32;
-    let p: i32 = (str2.as_bytes()[str2.len() - 1] as u8 - '0' as u8) as i32;
+    let n: i32 = (str1.as_bytes()[str1.len() - 1] as u8 - b'0') as i32;
+    let p: i32 = (str2.as_bytes()[str2.len() - 1] as u8 - b'0') as i32;
     println!("{} ^ {}", n, p);
     if n == 0 {
         0

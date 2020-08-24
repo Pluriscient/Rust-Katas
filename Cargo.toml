@@ -9,3 +9,5 @@ edition = "2018"
 [dependencies]
 bit-vec = "0.6.2"
 indicatif = "0.15.0"
+lazy_static = "1.4.0"
+rand = "0.7.3"

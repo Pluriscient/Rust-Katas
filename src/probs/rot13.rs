@@ -3,11 +3,11 @@
 fn rot13(message: &str) -> String {
     String::from_iter(message.chars().map(|x| {
         if !x.is_ascii_alphabetic() {
-            return x;
+            x
         } else if x.is_ascii_lowercase() {
-            (((x as u8) - ('a' as u8) + 13) % 26 + ('a' as u8)) as char
+            (((x as u8) - (b'a') + 13) % 26 + (b'a')) as char
         } else {
-            (((x as u8) - ('A' as u8) + 13) % 26 + ('A' as u8)) as char
+            (((x as u8) - (b'A') + 13) % 26 + (b'A')) as char
         }
     }))
 }

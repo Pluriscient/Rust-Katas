@@ -2,14 +2,10 @@
 use std::iter::FromIterator;
 
 fn recover_secret(triplets: Vec<[char; 3]>) -> String {
-    let all_letters: HashSet<char> = triplets
-        .iter()
-        .flat_map(|x| x.into_iter())
-        .cloned()
-        .collect();
+    let all_letters: HashSet<char> = triplets.iter().flat_map(|x| x.iter()).cloned().collect();
     let n = all_letters.len();
     let mut message: HashMap<usize, HashSet<char>> =
-        HashMap::from_iter(std::iter::repeat(all_letters.clone()).take(n).enumerate());
+        HashMap::from_iter(std::iter::repeat(all_letters).take(n).enumerate());
     let mut found_positions: HashMap<char, usize> = HashMap::new();
 
     for _ in 1..n * 2 {
@@ -21,7 +17,7 @@ fn recover_secret(triplets: Vec<[char; 3]>) -> String {
                 message.remove(&found_positions[letter]);
             }
         }
-        if message.len() == 0 {
+        if message.is_empty() {
             break;
         }
 
@@ -66,7 +62,7 @@ fn recover_secret(triplets: Vec<[char; 3]>) -> String {
         msg[i] = c;
     }
     println!("returning {:?}", msg);
-    return msg.iter().collect();
+    msg.iter().collect()
 }
 // Rust test example:
 // TODO: replace with your own tests (TDD), these are just how-to examples.
@@ -85,17 +81,17 @@ repeating the process.
 fn recover_secret_graph(triplets: Vec<[char; 3]>) -> String {
     type G = HashMap<char, HashSet<char>>;
     fn f(mut g: G, t: &[char; 3]) -> G {
-        g.entry(t[2]).or_insert(HashSet::new()).insert(t[1]);
-        g.entry(t[1]).or_insert(HashSet::new()).insert(t[0]);
-        g.entry(t[0]).or_insert(HashSet::new());
+        g.entry(t[2]).or_insert_with(HashSet::new).insert(t[1]);
+        g.entry(t[1]).or_insert_with(HashSet::new).insert(t[0]);
+        g.entry(t[0]).or_insert_with(HashSet::new);
         g
     }
     let mut graph = triplets.iter().fold(HashMap::new(), |acc, t| f(acc, t));
     println!("{:#?}", graph);
 
     let mut phrase = String::new();
-    while graph.len() != 0 {
-        let next = graph.iter().find(|&(_, v)| v.len() == 0).unwrap().0.clone();
+    while !graph.is_empty() {
+        let next = *graph.iter().find(|&(_, v)| v.is_empty()).unwrap().0;
         println!("{}", next);
         phrase.push(next);
         graph.remove(&next);

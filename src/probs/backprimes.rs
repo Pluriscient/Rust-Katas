@@ -17,7 +17,7 @@ fn backwards_prime(start: u64, stop: u64) -> Vec<u64> {
     res
 }
 
-fn testing(start: u64, stop: u64, exp: Vec<u64>) -> () {
+fn testing(start: u64, stop: u64, exp: Vec<u64>) {
     assert_eq!(backwards_prime(start, stop), exp)
 }
 

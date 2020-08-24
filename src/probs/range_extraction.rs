@@ -5,7 +5,7 @@
         let mut res: Vec<String> = vec![];
         let mut prevs = vec![];
         for x in a.iter() {
-            if prevs.len() == 0 {
+            if prevs.is_empty() {
                 prevs.push(x);
                 continue;
             }

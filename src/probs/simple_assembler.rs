@@ -8,10 +8,10 @@ fn simple_assembler(program: Vec<&str>) -> HashMap<String, i64> {
     while (current as usize) < program.len() {
         let mut word_iter = program[current as usize].split_whitespace();
         let cmd = word_iter.next().unwrap();
-        println!(
-            "Current state: {:?} - executing {} at line {}",
-            registers, cmd, current
-        );
+        // println!(
+        //     "Current state: {:?} - executing {} at line {}",
+        //     registers, cmd, current
+        // );
         let mut move_step = 1;
         match cmd {
             "mov" => {

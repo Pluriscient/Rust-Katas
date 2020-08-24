@@ -1,7 +1,7 @@
 ﻿fn doubles(maxk: i32, maxn: i32) -> f64 {
     fn v(k: i32, n: i32) -> f64 {
         let n = f64::from(n);
-        return 1f64 / (k as f64 * (n + 1f64).powi(2 * k));
+        1f64 / (k as f64 * (n + 1f64).powi(2 * k))
     }
     fn u(k: i32, max_n: i32) -> f64 {
         (1..=max_n).map(|n| v(k, n)).sum()

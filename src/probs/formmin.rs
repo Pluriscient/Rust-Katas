@@ -1,7 +1,7 @@
 ﻿use std::str::FromStr;
 
 fn min_value(mut digits: Vec<i32>) -> i32 {
-    digits.sort();
+    digits.sort_unstable();
     digits.dedup();
     let string = digits
         .iter()

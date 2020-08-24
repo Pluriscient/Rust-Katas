@@ -33,7 +33,7 @@ pub fn remove_nb(m: i32) -> Vec<(i32, i32)> {
     res.iter().map(|x| (x.0 as i32, x.1 as i32)).collect()
 }
 
-fn testing(n: i32, exp: Vec<(i32, i32)>) -> () {
+fn testing(n: i32, exp: Vec<(i32, i32)>) {
     assert_eq!(remove_nb(n), exp)
 }
 

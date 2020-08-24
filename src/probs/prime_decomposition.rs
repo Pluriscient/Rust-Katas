@@ -43,7 +43,7 @@ fn prime_factors(n: i64) -> String {
     res.join("")
 }
 
-fn testing(n: i64, exp: &str) -> () {
+fn testing(n: i64, exp: &str) {
     assert_eq!(&prime_factors(n), exp)
 }
 

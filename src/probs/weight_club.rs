@@ -23,7 +23,7 @@ fn order_weight(s: &str) -> String {
     words.join(" ")
 }
 
-fn testing(s: &str, exp: &str) -> () {
+fn testing(s: &str, exp: &str) {
     assert_eq!(order_weight(s), exp)
 }
 
